@@ -1,0 +1,23 @@
+{
+  "name": "user_application_test",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^8",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@cap-js/cds-types": "^0.7.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-user": "cds watch --open user/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/user"
+  ]
+}
